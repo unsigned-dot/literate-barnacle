@@ -68,7 +68,7 @@ export default function Component() {
               <div className="w-full md:w-1/3">
                 
                 <Image 
-  src=".\assets\profile.jpg"
+  src="/assets/profile.jpg"
   alt="Lucas Dupetit"
   className="rounded-full w-64 h-64 object-cover mx-auto"
   width={256} 
