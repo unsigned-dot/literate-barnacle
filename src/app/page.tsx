@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { BriefcaseIcon, CodeIcon, GlobeIcon, MailIcon, MapPinIcon, PhoneIcon, UserIcon, BarChartIcon, ShieldIcon, DatabaseIcon, Instagram,
+import { BriefcaseIcon, CodeIcon, GlobeIcon, MailIcon, MapPinIcon, PhoneIcon, BarChartIcon, ShieldIcon, DatabaseIcon, Instagram,
 } from "lucide-react";
 
 export default function Component() {
