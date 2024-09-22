@@ -1,5 +1,5 @@
 // pages/index.tsx
-import Image from &apos;next/image&apos;;
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   Card,
