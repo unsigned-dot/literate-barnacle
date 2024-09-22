@@ -20,14 +20,14 @@ export default function Component() {
           <nav>
             <ul className="flex space-x-4">
               <li>
-                <a href="#about" className="text-gray-600 hover:text-gray-900">
+                <a href="#about" className="">
                   À propos
                 </a>
               </li>
               <li>
                 <a
                   href="#services"
-                  className="text-gray-600 hover:text-gray-900"
+                  className=""
                 >
                   Services
                 </a>
@@ -35,7 +35,7 @@ export default function Component() {
               <li>
                 <a
                   href="#contact"
-                  className="text-gray-600 hover:text-gray-900"
+                  className=""
                 >
                   Contact
                 </a>
