@@ -1,5 +1,5 @@
 // pages/index.tsx
-
+import Image from &apos;next/image&apos;;
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -66,23 +66,27 @@ export default function Component() {
             </h2>
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full md:w-1/3">
-                <img
-                  src=".\assets\profile.jpg"
-                  alt="Lucas Dupetit"
-                  className="rounded-full w-64 h-64 object-cover mx-auto"
-                />
+                
+                <Image 
+  src=".\assets\profile.jpg"
+  alt="Lucas Dupetit"
+  className="rounded-full w-64 h-64 object-cover mx-auto"
+  width={256} 
+  height={256}
+/>
+
               </div>
               <div className="w-full md:w-2/3">
                 <p className="text-lg mb-4">
                   Bonjour, je suis Lucas Dupetit, consultant IT Digital basé à
-                  Paris. Avec 5 ans d'expérience dans le domaine,
-                  j'aide les entreprises à naviguer dans le paysage numérique en
+                  Paris. Avec 5 ans d&apos;expérience dans le domaine,
+                  j&apos;aide les entreprises à naviguer dans le paysage numérique en
                   constante évolution.
                 </p>
                 <p className="text-lg mb-4">
                   Ma passion est de combiner la technologie et la stratégie pour
                   créer des solutions innovantes qui stimulent la croissance et
-                  l'efficacité des entreprises.
+                  l&apos;efficacité des entreprises.
                 </p>
                 <div className="flex items-center gap-2">
                   <MapPinIcon className="w-5 h-5 text-gray-600" />
@@ -109,7 +113,7 @@ export default function Component() {
                 <CardContent>
                   <p>
                     Accompagnement dans la transition numérique de votre
-                    entreprise pour améliorer l'efficacité et la compétitivité.
+                    entreprise pour améliorer l&apos;efficacité et la compétitivité.
                   </p>
                 </CardContent>
               </Card>
@@ -158,7 +162,7 @@ export default function Component() {
                 <CardContent>
                   <p className="mb-2">Client : Société de transport</p>
                   <p className="mb-2">Durée : 6 mois</p>
-                  <p>Mise en place d'un système de gestion de flotte en temps réel, réduisant les coûts opérationnels de 25% et améliorant la satisfaction client de 40%.</p>
+                  <p>Mise en place d&apos;un système de gestion de flotte en temps réel, réduisant les coûts opérationnels de 25% et améliorant la satisfaction client de 40%.</p>
                 </CardContent>
               </Card>
               <Card>
@@ -171,7 +175,7 @@ export default function Component() {
                 <CardContent>
                   <p className="mb-2">Client : Domaine Bancaire</p>
                   <p className="mb-2">Durée : 4 mois</p>
-                  <p>Implémentation d'une stratégie de sécurité multicouche, réduisant les incidents de sécurité de 80% et assurant la conformité aux normes bancaires internationales.</p>
+                  <p>Implémentation d&apos;une stratégie de sécurité multicouche, réduisant les incidents de sécurité de 80% et assurant la conformité aux normes bancaires internationales.</p>
                 </CardContent>
               </Card>
               <Card>
@@ -184,20 +188,20 @@ export default function Component() {
                 <CardContent>
                   <p className="mb-2">Client : Commerce en ligne</p>
                   <p className="mb-2">Durée : 3 mois</p>
-                  <p>Migration complète de l'infrastructure vers AWS, résultant en une réduction des coûts d'hébergement de 35% et une amélioration des temps de chargement de 60%.</p>
+                  <p>Migration complète de l&apos;infrastructure vers AWS, résultant en une réduction des coûts d&apos;hébergement de 35% et une amélioration des temps de chargement de 60%.</p>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <CodeIcon className="w-5 h-5" />
-                    Développement d'une Plateforme IoT pour Industrie Manufacturière
+                    Développement d&apos;une Plateforme IoT pour Industrie Manufacturière
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="mb-2">Client : Industrie</p>
                   <p className="mb-2">Durée : 8 mois</p>
-                  <p>Création d'une plateforme IoT sur mesure pour la surveillance en temps réel de la production, augmentant l'efficacité de 30% et réduisant les temps d'arrêt de 50%.</p>
+                  <p>Création d&apos;une plateforme IoT sur mesure pour la surveillance en temps réel de la production, augmentant l&apos;efficacité de 30% et réduisant les temps d&apos;arrêt de 50%.</p>
                 </CardContent>
               </Card>
             </div>
@@ -213,7 +217,7 @@ export default function Component() {
                 <CardHeader>
                   <CardTitle>Informations de contact</CardTitle>
                   <CardDescription>
-                    N'hésitez pas à me contacter pour toute question ou demande
+                    N&apos;hésitez pas à me contacter pour toute question ou demande
                     de consultation.
                   </CardDescription>
                 </CardHeader>
